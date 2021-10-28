@@ -31,6 +31,7 @@
     "grunt-contrib-uglify": "^3.3.0",
     "grunt-contrib-watch": "^1.0.0",
     "grunt-filerev": "^2.3.1",
+    "grunt-gh-pages": "^4.0.0",
     "grunt-sass": "^2.1.0",
     "grunt-usemin": "^3.1.1",
     "htmlmin": "0.0.7",

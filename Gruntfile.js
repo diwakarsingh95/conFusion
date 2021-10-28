@@ -9,6 +9,8 @@ module.exports = function (grunt) {
     useminPrepare: 'grunt-usemin'
   })
 
+  grunt.loadNpmTasks('grunt-gh-pages')
+
   // Define the configuration for all the tasks
   grunt.initConfig({
     sass: {
@@ -179,6 +181,13 @@ module.exports = function (grunt) {
           'dist/aboutus.html': 'dist/aboutus.html'
         }
       }
+    },
+
+    'gh-pages': {
+      options: {
+        base: 'dist'
+      },
+      src: ['**']
     }
   })
 

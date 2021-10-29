@@ -1,7 +1,7 @@
 # conFusion
 Landing page UI for a restaurant developed using HTML, CSS and Bootstrap 4.
 
-## Run
+## Run on local
 Make sure you have **grunt-cli** installed globally.
 ```
 npm install -g grunt-cli
